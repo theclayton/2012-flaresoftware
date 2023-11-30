@@ -1,0 +1,178 @@
+			#Xellic{}
+			
+img {border: 0;}
+	
+body {background-color: #333333;
+			}	
+	
+h1 {font-family: Helvetica; font-size: 19px; color: #ffffff; font-weight: lighter;
+			}
+	
+h2 {font-family: Helvetica; font-size: 25px; color: black; font-weight: bold;
+			}		
+			
+	
+#BackgroundStripe {position: absolute; top: 175px; left: 0px; width: 100%; height: 150px; 
+			border-top: 1px solid #555555; border-bottom: 1px solid #555555;
+			background-color: #5fd35d; 
+			background-color: -moz-linear-gradient(top, #5fd35d 0%, #2db534 50%, #20aa20 52%, #39c436 100%);
+			background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5fd35d), color-stop(50%,#2db534),
+		    color-stop(52%,#20aa20), color-stop(100%,#39c436)); 
+			background-color: -webkit-linear-gradient(top, #5fd35d 0%,#2db534 50%,#20aa20 52%,#39c436 100%); 
+			background-color: -o-linear-gradient(top, #5fd35d 0%,#2db534 50%,#20aa20 52%,#39c436 100%);
+			background-color: -ms-linear-gradient(top, #5fd35d 0%,#2db534 50%,#20aa20 52%,#39c436 100%); 
+			background: linear-gradient(top, #5fd35d 0%,#2db534 50%,#20aa20 52%,#39c436 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fd35d', endColorstr='#39c436',GradientType=0); 
+			}
+	
+#TopBackground {position: absolute; top: 0px; left: 0px; width: 100%; height: 675px; background-color: #eeeeee;
+			border-bottom: 1px solid black;
+			}
+			
+#wrapper {position: relative; width: 920px; margin: 0 auto; text-align: left;
+			} 
+	
+#blackBar {position: absolute; width: 100%; height: 200px; left: 0px; top: 250px;
+			background-color: #444444; border-top: black 1px solid; border-bottom: black 1px solid;
+			}	
+		
+#MainBox {width:880px; height:800px; padding:15px; border:1px solid #999999;
+			position: absolute; left:0px; top: 0px;
+			background-color: transparent 50%;
+			background-repeat: no-repeat;
+			-moz-border-radius: 25px;
+			-webkit-border-radius: 25px;
+			border-radius: 25px; 
+			-moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+			-webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+			
+			background: -moz-linear-gradient(top, rgba(237,237,237,0.3) 0%, rgba(232,232,232,0.3) 100%);  
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,237,237,0.3)), 
+			color-stop(100%,rgba(232,232,232,0.3)));
+			background: -webkit-linear-gradient(top, rgba(237,237,237,0.3) 0%,rgba(232,232,232,0.3) 100%);
+			background: -o-linear-gradient(top, rgba(237,237,237,0.3) 0%,rgba(232,232,232,0.3) 100%); 
+			background: -ms-linear-gradient(top, rgba(237,237,237,0.3) 0%,rgba(232,232,232,0.3) 100%);
+			background: linear-gradient(top, rgba(237,237,237,0.3) 0%,rgba(232,232,232,0.3) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dededed', 
+			endColorstr='#4de8e8e8',GradientType=0); 
+			}
+
+#Title {position: absolute; top: 10px; left: 100px; background-image: url(FlareSoftwareText.png);
+		    height: 120px; width: 700px;
+			}
+
+#WebsiteInfo {position: absolute; top: 170px; left: 715px; color: black; font-size: 24px; font-family: Times; font-weight: lighter;
+			}
+
+#Website1 a, #Website1 a:visited {position: absolute; top: 200px; left: 690px; background-image: url(BoondoggleSite.png); width: 206px;
+			 height: 109px;
+			}
+	
+#Website1 a:hover {opacity: .75;
+			}	
+			
+#Website2 a, #Website2 a:visited {position: absolute; top: 325px; left: 690px; background-image: url(SteveWardSite.png); width: 206px;
+			 height: 109px;
+			}
+	
+#Website2 a:hover {opacity: .75;
+			}
+	
+#AppBox {position: absolute; top: 150px; left: 25px; background-color: #555555; height: 300px; width: 650px; 
+			border: solid 1px black;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			}
+		
+#Xellic a{position: absolute; top: 25px; left: 30px; 
+			}
+		
+#Xellic a:hover {opacity: .85;
+			}
+		
+#XellicInfo {position: absolute; top: 15px; left: 200px; right: 20px; 
+			font-family: Helvetica; font-size: 22px; color: #eeeeee; font-weight: lighter;
+			}
+		
+#AppStoreBadge a {position: absolute; top: 200px; left: 25px; background-image: url(AvailableOnTheAppStore.png); 
+			width: 250px; height: 86px;
+			}
+
+#AppStoreBadge a:hover{opacity: .75;
+			}
+
+#moreApps {position: absolute; top: 175px; left: 410px; color: #999999; font-family: Times; font-size: 22px;
+			}
+			
+#appIcons {position: absolute; top: 210px; left: 420px; 
+			}
+
+#appIcons a{padding: 5px;
+			}
+		
+#appIcons a:hover{opacity: .75;
+			}
+			
+#Box1 {position: absolute; top: 475px; left: 25px; width: 275px; height: 300px; background-color: #555555;
+		    border: 1px solid black;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			}
+	
+#NeedaSite a {position: absolute; top: 15px; left: 15px; background-image: url(NeedASite.png); height: 132px; width: 245px;
+			}
+	
+#NeedaSite a:hover {opacity: .75; 
+			}
+	
+#NeedaSiteInfo {position: absolute; left: 25px; right: 25px; top: 140px; text-align: left;
+			}
+		
+#Box2 {position: absolute; top: 475px; left: 323px; width: 260px; height: 300px; background-color: #555555; 
+			border: 1px solid black;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			}
+			
+#LogoInfo {position: absolute; left: 10px; right: 10px; top: 175px; text-align: center;
+			}
+			
+#Logos {position: absolute; top: 15px; left: 10px;
+			}
+			
+#Box3 {position: absolute; top: 475px; right: 25px; width: 275px; height: 300px; background-color: #555555;
+ 			border: 1px solid black;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			}
+	
+#ContactText {position: absolute; top: 0px; left: 10px; text-align: center;
+			}	
+	
+#ContactText a{color: #5fd35d; font-family: Times; font-size: 23px; text-decoration: none; 
+			}		
+		
+#ContactText a:hover{color: gray; text-decoration: none; 
+			}		
+	
+#Form {position: absolute; top: 100px; left: 25px; color: #dddddd;
+			}
+	
+#Social {position: absolute; top: 175px; left: 25px;
+			}
+	
+#Social a {padding: 5px;
+			}
+	
+#Social a:hover {opacity: .65;
+			}
+			
+#Copyright {position: absolute; top: 840px; left: 250px; color: #bbbbbb; font-family: Times; font-size: 20px;
+			}
+
+</style>
